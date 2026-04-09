@@ -35,7 +35,7 @@ client.once("ready", function () {
           res.send("🎉 Feature flag is ON - New menu active!");
         } else {
           console.log("feature false");
-          res.send("Feature flag is OFF - Original menu");
+          res.send("Feature flag is OFF - Original menu PR#2");
         }
       }
     );
